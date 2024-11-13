@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="flex items-center gap-12">
         <div className=" hidden lg:flex ">
           <ul className="flex justify-between gap-6">
-            <li className="font-bold text-primary cursor-pointer  hover:bg-primary hover:text-white rounded-md px-3 py-2">
+            <li className="font-bold text-primary cursor-pointer  hover:bg-primary hover:text-white rounded-md px-3 py-2 ">
               <a>Home</a>
             </li>
             
