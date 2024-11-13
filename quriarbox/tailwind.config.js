@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'delivery': "url('/assets/deliveryBackgroundWithOverlay.png')",
+      },
       colors: {
         'primary': '#F95C19',
       },
