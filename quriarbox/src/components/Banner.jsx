@@ -10,7 +10,7 @@ const Banner = () => {
             <button><a className="text-white bg-primary px-5 py-3 rounded-md font-extrabold text-xl" href="">Get Started </a></button>
         </div>
         <div>
-            <img className="max-w-[808px] max-h-[520px]" src={banner} alt="" />
+            <img className="lg:max-w-[808px] max-h-[520px]" src={banner} alt="" />
         </div>
       </div>
     </div>
