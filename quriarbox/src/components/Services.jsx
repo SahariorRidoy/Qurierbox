@@ -15,7 +15,7 @@ const Services = () => {
           </h2>
         </div>
         {/* Cards */}
-        <div className="flex justify-between gap-4">
+        <div className="flex justify-between lg:flex-row flex-col gap-4">
 
           <div className="px-12 pt-16 pb-12">
             <div className="flex justify-center">
