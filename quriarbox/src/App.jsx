@@ -4,6 +4,7 @@ import Awards from './components/Awards'
 import Banner from './components/Banner'
 import Delivery from './components/Delivery'
 import Feedback from './components/Feedback'
+import Location from './components/Location'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
@@ -20,6 +21,7 @@ function App() {
     <Delivery></Delivery>
     <Testimonial></Testimonial>
     <Feedback></Feedback>
+    <Location></Location>
     </>
   )
 }
