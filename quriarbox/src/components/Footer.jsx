@@ -20,7 +20,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your mail"
-                className="input input-bordered bg-transparent border focus:outline-none focus:border-gray-300 focus:ring-gray-300 focus:ring-1 border-gray-300 rounded-md max-w-[386px]"
+                className="input input-bordered bg-transparent border focus:outline-none focus:border-gray-300 focus:ring-gray-300 focus:ring-1 border-gray-300 rounded-md lg:w-[386px]"
               />
               <button className="btn border-none  text-white bg-primary ">
                 Subscribe
@@ -29,6 +29,7 @@ const Footer = () => {
           </fieldset>
         </form>
       </div>
+      {/* Footer middle parts */}
       <div className="bg-[#2F2E41]">
       <div className="max-w-[1320px] mx-auto footer p-10 flex lg:flex-row flex-col justify-between w-full">
         <aside className="text-white">
@@ -63,6 +64,14 @@ const Footer = () => {
         </nav>
         </div>
       </div>
+      </div>
+      {/* Footer last parts */}
+      <div className="bg-[#222132] py-7 lg:px-0 px-5">
+        <div className="max-w-[1320px] mx-auto flex lg:flex-row flex-col gap-2 justify-between">
+          <p className="text-xs text-gray-200">All rights Reserved © Dream IT Solution, 2024</p>
+          <p className="text-xs text-gray-200 ">Made with heart by <span className="text-primary">Saharior Ridoy</span></p>
+
+        </div>
       </div>
     </div>
   );
