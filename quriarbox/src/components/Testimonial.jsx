@@ -18,10 +18,10 @@ const Testimonial = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-primary font-bold text-2xl mt-32 mb-3">
+          <h4 className="text-primary font-bold text-2xl mt-12 lg:mt-32 mb-3">
             Fantastic service!
           </h4>
-          <p className="text-gray-800">
+          <p className="text-gray-800 lg:text-left text-justify">
             I purchased a phone from an e-commerce site, and this courier
             service provider assisted me in getting it delivered to my home. I
             received my phone within one day, and I was really satisfied with

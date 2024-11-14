@@ -75,8 +75,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex justify-between gap-2">
-            <img className="bg-[#FFEDC9] p-3  cursor-pointer" src={search} alt="" />
+        <div className="flex justify-between gap-2 lg:pr-0 pr-5">
+            <img className="bg-[#FFEDC9] p-3 btn-ghost hover:rounded-md cursor-pointer" src={search} alt="" />
           <a className="text-primary hover:text-white hover:bg-primary cursor-pointer bg-[#FFE4D9] py-3 px-5 rounded-md font-bold lg:block hidden">Contact us</a>
         </div>
         </div>

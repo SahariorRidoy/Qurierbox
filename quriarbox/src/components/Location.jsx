@@ -9,7 +9,7 @@ import tweeter from '../assets/tweeter.png'
 import call from '../assets/call.png'
 const Location = () => {
   return (
-    <div className="bg-[#FFF1DC] pt-48">
+    <div className="bg-[#FFF1DC] pt-20 lg:pt-48">
       <div className="max-w-[1320px] mx-auto ">
         <div>
             <h2 className="font-bold text-primary text-3xl text-center">FIND US</h2>
@@ -17,7 +17,7 @@ const Location = () => {
         </div>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6 pt-20">
             <img src={map} alt="" />
-            <div className="lg:pl-0 pl-5">
+            <div className="lg:px-0 px-5">
                 <h3 className="text-gray-800 font-bold text-xl mb-10">Contact with us</h3>
                 <div className="flex items-center gap-3 ml-[-3px]">
                     <img src={location} alt="" />
@@ -40,7 +40,7 @@ const Location = () => {
             </div>
         </div>
         <div className="flex justify-center pt-8">
-            <button className="bg-primary btn-ghost rounded-md py-6  px-2 lg:px-28 text-white flex items-center gap-3 text-xl font-bold"><img src={call} alt="" />Call us to delivery  123-456789</button>
+            <button className="bg-primary btn-ghost rounded-md py-3 lg:py-6  px-2 lg:px-28 text-white flex items-center gap-3 lg:text-xl font-bold"><img src={call} alt="" />Call us to delivery  123-456789</button>
         </div>
 
       </div>

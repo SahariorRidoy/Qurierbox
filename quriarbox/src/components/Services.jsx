@@ -4,20 +4,20 @@ import servicesTwo from "../assets/serviceTwo.svg";
 import servicesThree from "../assets/serviceThree.svg";
 const Services = () => {
   return (
-    <div className="bg-[#FFF1DC] pb-48">
+    <div className="bg-[#FFF1DC] pt-8 lg:pt-0  pb-12 lg:pb-48">
       <div className="max-w-[1320px] mx-auto ">
         <div>
           <h2 className="text-primary text-3xl font-bold text-center">
             SERVICES
           </h2>
-          <h2 className="font-extrabold text-4xl text-center text-[#11111D] mb-20">
+          <h2 className="font-extrabold text-4xl text-center text-[#11111D] mb-8 lg:mb-20">
             Our services for you
           </h2>
         </div>
         {/* Cards */}
         <div className="flex justify-between lg:flex-row flex-col gap-4">
 
-          <div className="px-12 pt-16 pb-12">
+          <div className="px-12 lg:pt-16 pb-12">
             <div className="flex justify-center">
               <img src={servicesOne} alt="" />
             </div>
@@ -47,7 +47,7 @@ const Services = () => {
               Learn more
             </button>
           </div>
-          <div className="px-12 pt-16 pb-12">
+          <div className="px-12 lg:pt-16 pb-12">
             <div className="flex justify-center">
               <img src={servicesTwo} alt="" />
             </div>
@@ -77,7 +77,7 @@ const Services = () => {
               Learn more
             </button>
           </div>
-          <div className="px-12 pt-16 pb-12">
+          <div className="px-12 lg:pt-16 pb-12">
             <div className="flex justify-center">
               <img src={servicesThree} alt="" />
             </div>

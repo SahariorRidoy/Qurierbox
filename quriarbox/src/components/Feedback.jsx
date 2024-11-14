@@ -2,7 +2,7 @@ import React from "react";
 import girl from "../assets/girlSendPaper.png";
 const Feedback = () => {
   return (
-    <div className="bg-[#FFF1DC] pt-72">
+    <div className="bg-[#FFF1DC] pt-20 lg:pt-72">
       <div className="max-w-[1320px] mx-auto ">
         <div className="hero ">
           <div className="hero-content flex-col lg:flex-row">

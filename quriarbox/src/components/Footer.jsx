@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
         </div>
         <form className="">
-          <h6 className="text-primary font-bold text-lg mb-3">
+          <h6 className="text-primary font-bold text-lg mb-3 lg:mt-0 mt-12">
             SUBSCRIBE TO NEWSLETTER
           </h6>
           <fieldset className="form-control w-80">
