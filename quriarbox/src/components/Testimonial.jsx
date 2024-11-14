@@ -9,10 +9,10 @@ const Testimonial = () => {
         <div className="flex items-center gap-9">
           <img src={quote} alt="" />
           <div className="text-center">
-            <h3 className="text-primary font-bold text-3xl mb-2">
+            <h3 className="text-primary font-bold text-2xl lg:text-3xl mb-2">
               TESTIMONIAL
             </h3>
-            <h2 className="text-gray-950 font-extrabold text-4xl">
+            <h2 className="text-gray-950 font-extrabold text-3xl lg:text-4xl">
               Our Awesome Clients
             </h2>
           </div>
@@ -33,7 +33,7 @@ const Testimonial = () => {
             are really reliable.
           </p>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex lg:flex-row flex-col mt-8 lg:mt-0 justify-between items-center">
           <img src={rating} alt="" />
           <div className="flex gap-3 items-center">
             <div className="mt-3">

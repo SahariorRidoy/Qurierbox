@@ -5,7 +5,7 @@ const Feedback = () => {
     <div className="bg-[#FFF1DC] pt-72">
       <div className="max-w-[1320px] mx-auto ">
         <div className="hero ">
-          <div className="hero-content flex-row">
+          <div className="hero-content flex-col lg:flex-row">
             <div className="text-center lg:text-left">
               <img className="ml-8" src={girl} alt="" />
               <h1 className="text-2xl font-bold text-primary">
