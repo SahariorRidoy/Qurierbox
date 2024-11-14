@@ -50,9 +50,9 @@ const Navbar = () => {
             
           </div>
           {/* Logo start */}
-          <div className="flex items-center ">
+          <div className="flex items-center btn btn-ghost">
             <img src={logo} alt="" />
-          <a className="text-xl font-semibold text-primary">Quriarbox</a>
+          <a className="text-xl font-semibold text-primary cursor-pointer">Quriarbox</a>
           </div>
         </div>
         
@@ -76,8 +76,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex justify-between gap-2">
-            <img className="bg-[#FFEDC9] p-3" src={search} alt="" />
-          <a className="text-primary bg-[#FFE4D9] py-3 px-5 rounded-md font-bold lg:block hidden">Contact us</a>
+            <img className="bg-[#FFEDC9] p-3  cursor-pointer" src={search} alt="" />
+          <a className="text-primary hover:text-white hover:bg-primary cursor-pointer bg-[#FFE4D9] py-3 px-5 rounded-md font-bold lg:block hidden">Contact us</a>
         </div>
         </div>
       </div>
